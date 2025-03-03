@@ -24,7 +24,7 @@ export const projectsData = [
       "This is the our final year research project. Our main objective is to identify and analyze challenges faced in mango cultivation to maximize profits. Int this app we provide facilities to determining the optimal timing for budding, identifying suitable varieties, managing diseases, proper fertilization, and knowledge dissemination gaps, with the goal of providing recommendations for improving cultivation practices and profitability.",
     technology:
       "React Native,Node Js,MongoDB,Express Js,YOLOv8,Machine Learning,Google Cloud",
-    image: "/images/projects/ee.jpeg",
+    image: "/images/projects/p2.png",
     demoLink: "https://ecotracker.example.com",
   },
   {
@@ -42,6 +42,7 @@ export const projectsData = [
     name: "TICKET RESERVATION - ENTERPRISE APPLICATION ",
     description: "Plan and track expenses",
     technology: " C#, Java, React JS, Android Studio",
+    image: "/images/projects/p3.png ",
     demoLink: "https://github.com/Dilsha-thathsarani/Ticket-Reservation",
   },
   {
@@ -54,23 +55,33 @@ export const projectsData = [
   },
   {
     id: 5,
-    name: "AQTRO - WEB APPLICATION ",
-    description: "Monitor heart rate zones",
-    technology: " Astro, Typescript, Supabase, Drizzle ORM ",
-    image: "/images/projects/rmt.png",
-    demoLink: "https://github.com/Dilsha-thathsarani/vigorous-venus",
+    name: "Classy Service ",
+    description:
+      "Classy service is a portal which connect different types of service providers to the service seekers. It has variety of services. Service providers can easily register to the system and find their buyers. People who seek for a particular service are able to search and find the best service provider according to the reviews or price. They can purchase the service through the system. All purchase and service histories will be available on their profiles. It is built using React js, Node js, Mongo DB, Express js and Bootstrap",
+    technology: "React Js, Node JS, MongoDB, Express Js, Bootstrap",
+    image: "/images/projects/p6.png",
+    demoLink: "https://github.com/Dilsha-thathsarani/Classy-service",
+  },
+  {
+    id: 6,
+    name: "Jasmine White House",
+    description:
+      "Fully responsive hotel website for Jasmine White House, a beachfront hotel, using WordPress. The website showcases the hotel's offerings, including room details, amenities, and guided tours.",
+    technology: "Wordpress, Elementor",
+    image: "/images/projects/p7.png",
+    demoLink: "https://jasminewhitehouse.com/",
   },
 ];
 
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
+  { label: "Projects", link: "/projects", icon: "folder", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Work",
     link: "/work",
-    icon: "education",
+    icon: "briefcase",
     newTab: false,
   },
   {
@@ -85,15 +96,10 @@ export const BtnList = [
     icon: "linkedin",
     newTab: true,
   },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
-    newTab: true,
-  },
+
   {
     label: "Resume",
-    link: "/Dilsha_Thathsarani_-_Associate_Software_Engineer.pdf",
+    link: "/Dilsha_Thathsarani-Software_Engineer.pdf",
     icon: "resume",
     newTab: true,
   },

@@ -48,10 +48,10 @@ const ProjectLayout = ({
         target={"_blank"}
         className="mt-4 flex flex-col items-start w-full"
       >
-        <h2 className="text-[#e1e1e1] text-lg md:text-xl font-semibold">
+        <h2 className="text-[#ffffff] text-lg md:text-xl font-semibold">
           {name}
         </h2>
-        <p className="text-[#737373] text-sm md:text-base mt-2">
+        <p className="text-[#b5b1b1] text-sm md:text-base mt-2">
           {description}
         </p>
 
