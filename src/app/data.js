@@ -20,16 +20,21 @@ export const projectsData = [
   {
     id: 1,
     name: "MANGOWISE - MOBILE APPLICATION",
-    description: "Track your carbon footprint",
-    technology: "Machine Learning, YOLOv8, Roboflow, React Native",
-
+    description:
+      "This is the our final year research project. Our main objective is to identify and analyze challenges faced in mango cultivation to maximize profits. Int this app we provide facilities to determining the optimal timing for budding, identifying suitable varieties, managing diseases, proper fertilization, and knowledge dissemination gaps, with the goal of providing recommendations for improving cultivation practices and profitability.",
+    technology:
+      "React Native,Node Js,MongoDB,Express Js,YOLOv8,Machine Learning,Google Cloud",
+    image: "/images/projects/ee.jpeg",
     demoLink: "https://ecotracker.example.com",
   },
   {
     id: 2,
     name: "RESEARCH MANAGEMENT SYSTEM - WEB APPLICATION ",
-    description: "Digital art showcase platform",
-    technology: " MongoDB, Express JS, React JS, Node JS, Bootstrap ",
+    description:
+      "The research management tool is a new self-contained software product which will be produced by the project team in order to overcome the problems that have occurred due to the current manual system. This tool will provide an easy access to the system and it will contain user friendly functions with attractive interfaces. The system will give better options for the problem of handling large scale of physical research file system, for the errors occurring in calculations and all the other required tasks that has been specified by the student.",
+    technology:
+      " MongoDB, Express JS, React JS, Node JS, Bootstrap, Material-UI ",
+    image: "/images/projects/rmt.png",
     demoLink: "https://github.com/Dilsha-thathsarani/Research-Management-Tool",
   },
   {
@@ -44,49 +49,16 @@ export const projectsData = [
     name: "AQTRO - WEB APPLICATION ",
     description: "Monitor heart rate zones",
     technology: " Astro, Typescript, Supabase, Drizzle ORM ",
+    image: "/images/projects/aqtro.png",
     demoLink: "https://github.com/Dilsha-thathsarani/vigorous-venus",
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
-  },
-  {
-    id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
-  },
-  {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "AQTRO - WEB APPLICATION ",
+    description: "Monitor heart rate zones",
+    technology: " Astro, Typescript, Supabase, Drizzle ORM ",
+    image: "/images/projects/rmt.png",
+    demoLink: "https://github.com/Dilsha-thathsarani/vigorous-venus",
   },
 ];
 
@@ -124,54 +96,5 @@ export const BtnList = [
     link: "/Dilsha_Thathsarani_-_Associate_Software_Engineer.pdf",
     icon: "resume",
     newTab: true,
-  },
-];
-
-export const experiences = [
-  {
-    title: "Public Pulse",
-    company_name: "Flutter, React JS, Firebase, Python",
-    iconBg: "#383E56",
-    date: "June 2024 - Present",
-    points: [
-      "Developed a decentralized app using Web3 technology to enable secure and anonymous voting on policy opinions.",
-      "Wrote and deployed smart contracts to manage voting and data transparency on the blockchain",
-      "Created an intuitive UI with React for seamless user interaction and engagement.",
-    ],
-  },
-  {
-    title: "FoodDel ",
-    company_name: "MERN Stack",
-    iconBg: "#E6DEDD",
-    date: "Feb 2024 - May 2024",
-    points: [
-      "Developed a responsive and user-friendly interface using React and Tailwind CSS.",
-      "Built RESTful APIs with Node.js and Express.js to handle user data, product listings, and orders",
-      "Used MongoDB to securely manage user profiles, product information, and order history",
-      "Implemented secure user authentication and authorization with JWT.",
-    ],
-  },
-  {
-    title: "Ceylon Marketplace",
-    company_name: "Flutter, NodeJS, MongoDB, Express JS",
-    iconBg: "#383E56",
-    date: "June 2024 - Nov 2024",
-    points: [
-      "Developed a cross-platform mobile app with Flutter for a smooth shopping experience.",
-      "Focused on an intuitive, user-friendly interface and easy navigation.",
-      "Integrated product management, user profiles, and secure payment features.",
-    ],
-  },
-  {
-    title: "Predicting Weather Conditions in Sri Lanka",
-    company_name: "Python, Pandas, Scikit-learn, Matplotlib",
-    iconBg: "#E6DEDD",
-    date: "Nov 2024 - Jan 2025",
-    points: [
-      "Developed a machine learning model to predict weather conditions (Sunny, Rainy, Cloudy) using historical weather data from 30 Sri Lankan cities (2010–2023).",
-      "Conducted data preprocessing and exploratory data analysis to identify key meteorological patterns.",
-      "Trained and evaluated Logistic Regression and Random Forest algorithms to classify future weather conditions with high accuracy.",
-      "Visualized climate trends and prediction results to enable better planning for weather-dependent activities.",
-    ],
   },
 ];
